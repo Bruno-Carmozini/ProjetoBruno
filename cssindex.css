@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, rgb(228, 228, 228), rgb(218, 216, 216));
+
+}
+
+@font-face {
+    font-family: minhafonte;
+    src: url(./Font/Hua-RegularDemo.otf);
+
+}
+@font-face {
+    font-family: minhafonte2;
+    src: url(./Font/Anton-Regular.ttf);
+
+}
+.table1{
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px #202020;
+    width: 40%;
+    height: 500px;
+    padding: 50px;
+    font-family: 'minhafonte';
+    background-color: white;
+}
+.titulo{
+    font-size: 25px;
+    font-family: 'minhafonte2';
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
+.titulo:hover{
+    box-shadow: inset 0 0 0 2px #18bfef;
+    color: #18bfef !important;
+}
+
+
+.titulo2{
+    font-size: 25px;
+    font-family: 'minhafonte2';
+    letter-spacing: 2px;
+    
+}
+.botao1{
+    
+    background: #383838;
+    border-radius: 7px;
+    border: 0px;
+    padding: 5%;
+    margin: 3%;
+    width: 90%;
+    font-family: 'minhafonte';
+    color: white;
+    
+}
+.botao1:hover{
+		box-shadow: inset 0 0 0 2px #18bfef;
+		color: #18bfef !important;
+}
+.cabe{
+    color: black;
+    font-size: 20px;
+    font-family: 'minhafonte2';
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
