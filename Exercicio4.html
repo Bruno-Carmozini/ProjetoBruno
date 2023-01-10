@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 4</title>
+    <link rel="stylesheet" href="assets/css/Exercicio 1.css">
+    <link rel="icon" href="imagens/img topo/4.png">
+</head>
+<style>
+    #calc{
+        margin-left: -40%;
+    }
+    #arruma{
+        text-align: left;
+    }
+    .distancia{
+        margin-top: 8px;
+    }
+    #v2,#v3,#v4,#v5{
+        margin-top: 10px;
+        background: #383838;
+        border-radius: 7px;
+        border: 0px;
+        padding: 5%;
+        font-family: 'minhafonte';
+        color: white;
+        
+    }
+    .botao:hover{
+            box-shadow: inset 0 0 0 2px #18bfef;
+            color: #18bfef !important;
+    }
+</style>
+    <body>
+        <div id="corpo">
+        
+                
+            <table>
+                <tr>
+                    <td width="30%">
+                        <a href="index.html">    
+                            <img id="voltar" src="imagens\voltar.svg" alt="botao voltar erro">
+                        </a>
+                    </td>
+                    <td>
+                        <h3 align="left">
+                
+                
+                            4) Valor a pagar:
+                        </h3>
+                    </td>
+                </tr>
+            </table>
+            <table align="center">
+                <tr>
+                    <td>
+                        <span >
+                            <img id="calc" src="Imagens/44.gif" alt="Erro calc">
+                        </span>
+                    </td>
+                    <td>
+                        <span>
+                            <h5 id="arruma">
+                                
+                                Digite o preço do produto: <br>
+                                <input type="number" name="v1" id="v1" class="botao"><br><br>
+                                <input type="button" name="v2" id="v2" class="botao" value="1" onclick="calcular()" class="distancia"> A vista no Dinhero</input><br>
+                                <input type="button" name="v3" id="v3" class="botao" value="2" onclick="calcular1()" class="distancia"> A vista no Débito</input><br>
+                                <input type="button" name="v4" id="v4" class="botao" value="3" onclick="calcular2()" class="distancia"> Até 2x no Crédito</input><br>
+                                <input type="button" name="v5" id="v5" class="botao" value="4" onclick="calcular3()" class="distancia"> Até 3x ou mais no Crédito</input><br>
+                            </h5>
+                        </span>
+                    </td>
+                </tr>
+            
+            </table>
+            
+    
+
+            <div id="total"></div><br>
+            <div id="total2"></div>
+            <div id="total3"></div>
+            <div id="total4"></div>
+            <div id="total5"></div>
+        </div>
+        <script src="assets/js/Exercicio 4.js">
+
+
+
+        </script>
+
+    </body>
+</html>
